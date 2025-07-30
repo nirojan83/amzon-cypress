@@ -1,0 +1,24 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Cypress-generated files
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
+
+# Mac system files
+.DS_Store
+
+# Environment files (if used)
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/editor settings (optional)
+.vscode/
+.idea/
