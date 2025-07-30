@@ -67,7 +67,7 @@ npm run test:report
 
 •	Saves the report in cypress/reports/
 
-### Option 3: Headed CLI execution with reports using desired browser
+### Option 3: Headed CLI execution with reports using desired browser (will only work if the browsers are installed on your machine)
 
 **npm run test:headed:reportChrome** (Chrome) or 
 
