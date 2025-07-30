@@ -40,13 +40,28 @@ npx cypress open
 
 •	Launches the Cypress Test Runner UI
 
-•	Select and run individual test specs manually
+•   On the next screen choose E2E Test
+
+<img width="1146" height="642" alt="image" src="https://github.com/user-attachments/assets/60474a42-65bd-4558-b9dd-cee5cdbfe7c1" />
+
+•   On the following screen select the browser you want to test in. Note: You will only be presented with browsers Cypress support and are installed on your system.
+
+<img width="1034" height="526" alt="image" src="https://github.com/user-attachments/assets/e3bcd1c3-bfb3-4297-974b-9ba6cfa93d1e" />
+
+•   On the next screen you will be presented with the tests(specs) available. Click on the spec called amazonCreateAccount.cy.js.
+
+<img width="1277" height="481" alt="image" src="https://github.com/user-attachments/assets/8708505c-6cd1-47a8-9f51-a99e0e100b55" />
+
+•	This will kick off the tests and show you the results at the end.
+
+<img width="1272" height="573" alt="image" src="https://github.com/user-attachments/assets/152714c6-45eb-4e89-9936-d78e50b9e78d" />
+
 
 ### Option 2: Headless CLI execution with reports
 
 npm run test:report
 
-•	Runs all tests in headed mode
+•	Runs all tests in headless mode
 
 •	Renames the HTML report with a timestamp
 
@@ -60,7 +75,7 @@ npm run test:report
 
 Could have added other browsers but for this demo I kept it simple
 
-•	Runs all tests in headless mode
+•	Runs all tests in headed mode
 
 •	Renames the HTML report with a timestamp
 
