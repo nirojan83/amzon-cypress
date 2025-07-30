@@ -15,7 +15,7 @@ This repository contains an automated end-to-end test suite for Amazons Create A
 ### Clone the Repository
 
 - git clone https://github.com/nirojan83/amzon-cypress.git
-- cd amazon-cypress
+- cd amzon-cypress
 
 ### Install dependencies
 
