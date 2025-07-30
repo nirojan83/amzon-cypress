@@ -13,7 +13,7 @@ describe('Login Test', () => {
         createAccountPage.reEnterPassword(data.passwordConfimation)
         createAccountPage.continueButton()
         // Don't usually use wait
-        cy.wait(3000)
+        cy.wait(1000)
         cy.title().should('eq', 'Authentication required')
         cy.clearCookies();
       });
@@ -30,7 +30,7 @@ describe('Login Test', () => {
         createAccountPage.reEnterPassword(data.passwordConfimation)
         createAccountPage.continueButton()
         // Don't usually use wait
-        cy.wait(3000)
+        cy.wait(1000)
         cy.xpath('//div[contains(text(), "Passwords must match")]').contains("Passwords must match")
         cy.clearCookies();
       });

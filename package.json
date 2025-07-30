@@ -5,7 +5,9 @@
   "scripts": {
     "test:run": "cypress run",
     "test:rename-report": "node rename-report.js",
-    "test:report": "npx cypress run || true && node rename-report.js"
+    "test:report": "npx cypress run || true && node rename-report.js",
+    "test:headed:reportChrome": "cypress run --browser chrome --headed && node rename-report.js",
+    "test:headed:reportFF": "cypress run --browser firefox --headed && node rename-report.js"
   },
   "keywords": [],
   "author": "",
